@@ -53,6 +53,8 @@ dump 工具存放在tools/DumpPrinter-1.0.jar 中
 
 //调用方法：
 java -jar tools/DumpPrinter-1.0.jar dump文件路径 > dump_log.txt
+
+java -jar tools/DumpPrinter-1.0.jar 1568688643 > dump_log.txt
 ```
 
 5. 然后就可以在 `dump_log.txt` 中看到解析出来的数据
